@@ -27,9 +27,6 @@ SmartFarm-Adaptive-Predictive-Irrigation/
 │   └── Fig2_actual_vs_predicted_v2.pdf
 └── README.md
 
-
-This tree describes the intended release layout. Verify that each listed file has been uploaded before making the repository public. The filenames smartfarm_soil_data_v2.csv and model_comparison_test_v2.csv are publication-oriented renames; renaming must not alter the underlying data or reported values.
-
 ## Dataset and experimental design
 
 - Testbed: closed greenhouse used for grape cultivation.
