@@ -365,7 +365,7 @@ def run(args):
             pd.to_datetime(selected_predictions["forecast_origin"]) == DELTA_1H).all()
 
     save_csv(validation_df, output_dir / "validation_metrics_v2.csv")
-    save_csv(test_df_results, output_dir / "model_results_table7_v2.csv")
+    save_csv(test_df_results, output_dir / "model_comparison_test_v2.csv")
     save_csv(selected_predictions,
              output_dir / "actual_vs_predicted_selected_model_v2.csv")
 
@@ -411,7 +411,7 @@ def run(args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "--input", default="data/raw/smartfarm_soil_data.csv",
+        "--input", default="data/raw/smartfarm_soil_data_v2.csv",
         help="Path to the original sensor-data CSV (default: %(default)s)",
     )
     parser.add_argument(
