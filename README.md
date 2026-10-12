@@ -66,11 +66,11 @@ Run commands from the repository root. For the original Raspberry Pi benchmark, 
 
    bash
    python scripts/plot_figure2_actual_vs_predicted_v2.py \
-     --input results/V2/actual_vs_predicted_selected_model_v2.csv \
+     --input results/actual_vs_predicted_selected_model_v2.csv \
      --output-dir figures
    
 
-Important filename check: In the currently verified V2 training script, change the output filename model_results_table7_v2.csv to model_comparison_test_v2.csv before publishing the updated script. The explicit --input argument above avoids its older default filename, smartfarm_soil_data.csv. The original run_metadata_v2.json contains the absolute path used in the historical Raspberry Pi run; retain that historical provenance rather than editing it to imply a different run.
+Important filename check: In the currently verified V2 training script, change the output filename model_comparison_test_v2.csv to model_comparison_test_v2.csv before publishing the updated script. The explicit --input argument above avoids its older default filename, smartfarm_soil_data.csv. The original run_metadata_v2.json contains the absolute path used in the historical Raspberry Pi run; retain that historical provenance rather than editing it to imply a different run.
 
 ## Main results (held-out test set)
 
