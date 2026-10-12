@@ -5,7 +5,7 @@ Run from the SmartFarm repository root on the Raspberry Pi 4:
     python3 scripts/run_soil_prediction_v2.py
 
 Or supply an input path and output directory explicitly:
-    python3 run_soil_prediction_v2.py --input data/raw/smartfarm_soil_data.csv --output-dir results
+    python3 run_soil_prediction_v2.py --input data/raw/smartfarm_soil_data_v2.csv --output-dir results
 
 Key differences from v1:
   * Keep missing hours in the hourly time axis until ALL features and targets
