@@ -59,7 +59,7 @@ Run commands from the repository root. For the original Raspberry Pi benchmark, 
    bash
    python src/run_soil_prediction_v2.py \
      --input data/raw/smartfarm_soil_data_v2.csv \
-     --output-dir results/V2
+     --output-dir results
    
 
 3. Generate the selected-model prediction figure:
